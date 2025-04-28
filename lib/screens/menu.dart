@@ -5,9 +5,8 @@ import 'dice_page.dart';
 import 'magic_ball_page.dart';
 import 'bmi_page.dart';
 import 'clima_page.dart';
-import 'bitcoin_page.dart';
 import 'flash_chat_page.dart';
-import 'todoey_page.dart';
+import 'micard_page.dart';
 import 'destini_page.dart';
 import 'quizzler_page.dart';
 
@@ -37,9 +36,8 @@ class MainMenu extends StatelessWidget {
               buildButton(context, 'Magic 8 Ball', const MagicBallPage()),
               buildButton(context, 'BMI Calculator', const BMIPage()),
               buildButton(context, 'Clima', const ClimaPage()),
-              buildButton(context, 'Bitcoin Ticker', const BitcoinPage()),
               buildButton(context, 'Flash Chat', const FlashChatPage()),
-              buildButton(context, 'Todoey', const TodoeyPage()),
+              buildButton(context, 'MiCard', const MiCardPage()),
               buildButton(context, 'Destini', const DestiniPage()),
               buildButton(context, 'Quizzler', const QuizzlerPage()),
             ],
